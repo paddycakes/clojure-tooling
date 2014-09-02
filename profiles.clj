@@ -1,4 +1,5 @@
-{:user {:plugins [[lein-try "0.4.3"]]
+{:user {:plugins [[lein-try "0.4.3"]
+                  [lein-ancient "0.5.5"]]
         :dependencies [[im.chit/vinyasa "0.1.8"]
                        [org.clojars.gjahad/debug-repl "0.3.3"]]
         :injections [(require 'vinyasa.inject)
